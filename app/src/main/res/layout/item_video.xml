@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:text="Video"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/decription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="16dp"
+        android:text="Video deciption"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="14sp" />
+
+</LinearLayout>
